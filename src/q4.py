@@ -13,9 +13,15 @@ def string_reverse(s):
 
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
-# - "Hello World"
-# - "Python"
 
-print("Test 1 Result:", string_reverse("Hello World"))   # Expected Output: Test 1 Result: dlroW olleH
-print("Test 2 Result:", string_reverse("Python"))        # Expected Output: Test 2 Result: nohtyP
-print("Test 3 Result:", string_reverse(12345))           # Expected Output: Test 3 Result: Input must be a string
+# Test 1: "Hello World"
+# Expected Output: Test 1 Result: dlroW olleH
+print("Test 1 Result:", string_reverse("Hello World"))   
+
+# Test 2: "Python"
+# Expected Output: Test 2 Result: nohtyP
+print("Test 2 Result:", string_reverse("Python"))    
+
+# Test 3: input string str datatype not "string"
+# Expected Output: Test 3 Result: Input must be a string
+print("Test 3 Result:", string_reverse(12345))           
