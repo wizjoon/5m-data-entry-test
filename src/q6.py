@@ -19,11 +19,14 @@ def find_first_negative(lst):
 # Invoke the function "find_first_negative" using the following scenario:
 
 # Task 1: [3, 5, -1, 7, -2, 8]
-print(find_first_negative([3, 5, -1, 7, -2, 8]))  # Expected Output: -1
+# Expected Output: -1
+print(find_first_negative([3, 5, -1, 7, -2, 8]))  
 
 # Task 2: [2, 10, 7, 0]
-print(find_first_negative([2, 10, 7, 0]))         # Expected Output: "No negatives"
+# Expected Output: "No negatives"
+print(find_first_negative([2, 10, 7, 0]))         
 
 # Task 3: Empty list
-print(find_first_negative([]))                    # Expected Output: "List is empty"
+# Expected Output: "List is empty"
+print(find_first_negative([]))                    
 
