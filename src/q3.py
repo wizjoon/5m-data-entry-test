@@ -13,14 +13,16 @@ def update_dictionary(dct, key, value):
 
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
-# - {}, "name", "Alice"
-# - {"age": 25}, "age", 26
 
 
+# Test 1: {}, "name", "Alice"
+# Expected Output - Updated Dictionary 1: {'name': 'Alice'}
 result = update_dictionary({}, "name", "Alice")
-print("Updated Dictionary 1:", result)                               # Expected Output - Updated Dictionary 1: {'name': 'Alice'}
+print("Updated Dictionary 1:", result)                              
 
+# Test 2: {"age": 25}, "age", 26
+# Expected Output - Updated Dictionary 2: {'age': 26}  
 result = update_dictionary({"age": 25}, "age", 26)
-print("Updated Dictionary 2:", result)                               # Expected Output - Updated Dictionary 2: {'age': 26}                               # Expected Output - Updated Dictionary 1: {'name': 'Alice'}
+print("Updated Dictionary 2:", result)                                                            
 
 
