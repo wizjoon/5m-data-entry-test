@@ -19,7 +19,7 @@ def swap(x, y):
 # Invoke the function "swap" using the following scenarios:
 
 # Test 1: "Apple", 10
-print("Test 1 Result:", swap("Apple", 10))
+print("Test 1 Result:", swap("Apple", 10))          # Test 1 Result: -1
 
 # Test 2: 9, 17
-print("Test 2 Result:", swap(9, 17))
+print("Test 2 Result:", swap(9, 17))               # Test 2 Result: (17, 9)
