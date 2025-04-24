@@ -18,8 +18,8 @@ def swap(x, y):
 # Task 2
 # Invoke the function "swap" using the following scenarios:
 
-# - "Apple", 10
+# Test 1: "Apple", 10
 print("Test 1 Result:", swap("Apple", 10))
 
-# - 9, 17
+# Test 2: 9, 17
 print("Test 2 Result:", swap(9, 17))
