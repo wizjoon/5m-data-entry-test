@@ -6,6 +6,8 @@ def find_first_negative(lst):
     - Use a while loop to implement this.
     """
     i = 0
+    if lst == []:
+        return "List is empty"
     while i < len(lst):
         if lst[i] < 0:
             return lst[i]
@@ -15,8 +17,13 @@ def find_first_negative(lst):
 
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
-# - [3, 5, -1, 7, -2, 8]
-# - [2, 10, 7, 0]
 
-print(find_first_negative([3, 5, -1, 7, -2, 8]))  # Expected: -1
-print(find_first_negative([2, 10, 7, 0]))         # Expected: "No negatives"
+# Task 1: [3, 5, -1, 7, -2, 8]
+print(find_first_negative([3, 5, -1, 7, -2, 8]))  # Expected Output: -1
+
+# Task 2: [2, 10, 7, 0]
+print(find_first_negative([2, 10, 7, 0]))         # Expected Output: "No negatives"
+
+# Task 3: Empty list
+print(find_first_negative([]))                    # Expected Output: "List is empty"
+
